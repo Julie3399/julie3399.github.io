@@ -93,7 +93,9 @@ export const PROJECTS: Project[] = [
     description: "Improved prediction accuracy and speed for financial derivative pricing using Mixture Density Networks (MDN) and Bayesian Neural Networks (BNN).",
     imageUrl: "https://picsum.photos/600/400?random=15",
     tags: ["Deep Learning", "Finance", "BNN", "MDN"],
-    links: [],
+    links: [
+      { type: "github", url: "https://github.com/MathePhysics/UROP-2022" }
+    ],
   },
 ];
 
@@ -103,20 +105,20 @@ export const AWARDS: Award[] = [
     title: "'Brave Soldier' Award",
     organization: "UCL x HolisticAI: Great Agent Hack 2025",
     date: "2025",
-    description: "Awarded for GlassBox Labs, a tool providing transparent AI agent debugging and observability.",
+    description: "Awarded for GlassBox Labs, an agentic platfrom providing transparent AI agent debugging and observability.",
   },
   {
     id: "2",
     title: "2nd Place Winner",
     organization: "ElevenLabs × LFH Hackathon",
-    date: "2024",
+    date: "2025",
     description: "Recognized for Sign2Speak, an AI-powered sign language translation system with AR integration.",
   },
   {
     id: "3",
     title: "1st Place Team",
-    organization: "Goldman Sachs Engineering Intern Hackathon",
-    date: "Spring 2021",
+    organization: "Goldman Sachs Internship",
+    date: "2021",
     description: "Awarded for developing the best neural-network-based hedging model for natural gas futures.",
   },
 ];
