@@ -42,10 +42,9 @@ export const About: React.FC = () => {
                  <div className="absolute top-0 left-0 bg-background px-2 -mt-3 ml-4 text-xs font-mono text-accent">IMG_PROFILE_01.JPG</div>
                  
                  <div className="aspect-[3/4] w-full bg-surfaceHighlight relative overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
-                     {/* IMPORTANT: Replace with local image path e.g. src="/assets/julie.jpg" */}
-                     <img 
-                        src="https://picsum.photos/800/1000?grayscale" 
-                        alt="Julie Huang" 
+                     <img
+                        src="/assets/profile.jpg"
+                        alt="Julie Huang"
                         className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
                      />
                      

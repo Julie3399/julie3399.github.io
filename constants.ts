@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
     id: "2",
     title: "Sign2Speak",
     description: "2nd Place at ElevenLabs × LFH Hackathon. A system translating sign language into speech using a Gemini-powered vision pipeline and AR overlay. Enables seamless bidirectional conversation on smart glasses.",
-    imageUrl: "https://picsum.photos/600/400?random=11",
+    imageUrl: "/assets/sign2speak.png",
     tags: ["Computer Vision", "AR", "FastAPI", "VoiceAI", "Gemini"],
     links: [
       { type: "youtube", url: "http://www.youtube.com/watch?v=3xIiecQodXA" },
@@ -61,7 +61,7 @@ export const PROJECTS: Project[] = [
     id: "3",
     title: "BlockChain Coder",
     description: "A novel multi-agent framework (Planner, Optimizer, Debugger) that guides LLMs to solve complex coding challenges. Enabled smaller models to rival GPT-4 performance on unseen LeetCode problems.",
-    imageUrl: "https://picsum.photos/600/400?random=12",
+    imageUrl: "/assets/BlockChain Coder.png",
     tags: ["LangChain", "Multi-Agent", "Code Generation", "LLMs"],
     links: [
       { type: "pdf", url: "/assets/BlockChain Coder.pdf", label: "Paper" }
