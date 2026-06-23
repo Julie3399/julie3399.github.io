@@ -125,31 +125,13 @@ export const AWARDS: Award[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    id: "1",
-    title: "Deconstructing Multi-Agent Systems",
-    summary: "How delegating specific roles (Planner, Debugger) significantly improves LLM performance on complex logical tasks.",
-    date: "March 2024",
-    readTime: "6 min read",
-    category: "AI Research",
-    link: "#",
-  },
-  {
-    id: "2",
-    title: "Bayesian Knowledge Tracing in Robotics",
-    summary: "Implementing real-time personalization for robot tutors using probabilistic modeling.",
-    date: "Feb 2024",
-    readTime: "8 min read",
-    category: "Robotics",
-    link: "#",
-  },
-  {
-    id: "3",
-    title: "The Future of Agent Observability",
-    summary: "Why we need better tools to visualize the 'thought process' of autonomous AI agents.",
-    date: "Jan 2024",
-    readTime: "5 min read",
-    category: "Opinion",
-    link: "#",
+    id: "4",
+    title: "MiniT2I Food LoRA Comparison",
+    summary: "A side-by-side look at MiniT2I base outputs versus a food-specialized LoRA fine-tune across the same prompt set.",
+    date: "June 2026",
+    readTime: "10 min read",
+    category: "Generative AI",
+    link: "/blog/minit2i-model-comparison.html",
   },
 ];
 
