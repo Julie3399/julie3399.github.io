@@ -304,21 +304,15 @@
 
       <h3>Training Dataset</h3>
       <p>
-        Our training data comes from the
-        <a href="https://epicure.kaikaku.ai/gallery">Kaikaku Epicure recipe gallery</a>. We first collected about
-        <strong>5,000</strong> gallery metadata candidates containing dish name, cuisine / cultural origin, dish type,
-        ingredients, visual description, original image prompt, and image URL. From this pool, we built a
-        <strong>1,000-image</strong> MiniT2I LoRA training set focused on recipe and food photography.
+        We used <a href="https://epicure.kaikaku.ai/">Epicure MCP</a> to help create a recipe-photo dataset for LoRA fine-tuning. Epicure is an
+        ingredient-embedding model that supports science-backed flavour pairing, cuisine-aware recipe design,
+        and structured food prompt generation. We used Gemini for image generation.
       </p>
       <p>
-        To avoid mixing overhead and restaurant-style perspectives, we removed overhead / top-down images and kept
-        only non-overhead samples: <strong>513</strong> table-level low-angle images and <strong>487</strong> angled
-        3/4-view images, with no overhead samples retained.
-      </p>
-      <p>
-        Image sources include <strong>619</strong> previously downloaded and verified non-overhead samples,
-        <strong>378</strong> newly selected and downloaded samples from the metadata pool, and <strong>3</strong>
-        flexible-fill samples used to complete the distribution.
+        The final dataset contains <strong>1,000</strong> food-photography examples with structured prompts covering
+        dish name, cuisine or cultural origin, dish type, visible ingredients, and composition style. We curated the
+        images for visual consistency, excluding overhead views and keeping <strong>513</strong> table-level low-angle
+        images and <strong>487</strong> angled 3/4-view images.
       </p>
       <p>
         The dataset was balanced mainly by cuisine and course. Cuisine distribution: <strong>Western 350</strong>,
