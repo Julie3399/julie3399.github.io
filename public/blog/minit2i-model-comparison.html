@@ -304,8 +304,8 @@
 
       <h3>Training Dataset</h3>
       <p>
-        We used <a href="https://epicure.kaikaku.ai/">Epicure MCP</a> to help create a recipe-photo dataset for LoRA fine-tuning. Epicure is an
-        ingredient-embedding model that supports science-backed flavour pairing, cuisine-aware recipe design,
+        We used <a href="https://epicure.kaikaku.ai/">Epicure MCP</a> to help create a recipe-image training dataset for LoRA fine-tuning. Epicure contains
+        ingredient-embedding models that support science-backed flavour pairing, cuisine-aware recipe design,
         and structured food prompt generation. We used Gemini for image generation.
       </p>
       <p>
@@ -328,7 +328,11 @@
       </p>
 
       <h3>Comparison</h3>
-      <p>The examples below compare MiniT2I base outputs against our food-specialized LoRA outputs for the same prompt set.</p>
+      <p>
+        The examples below compare MiniT2I base outputs against our food-specialized LoRA outputs for the same prompt set.
+        The training and inference code is available in the
+        <a href="https://github.com/Julie3399/julie3399.github.io/blob/main/public/blog/minit2i_lora_recipe.ipynb">MiniT2I LoRA recipe notebook</a>.
+      </p>
     </div>
   </section>
 
